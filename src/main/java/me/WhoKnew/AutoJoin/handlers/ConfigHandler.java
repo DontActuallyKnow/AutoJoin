@@ -167,6 +167,16 @@ public class ConfigHandler {
 
     public static void reloadConfig() {
         if(!hasKey("autojoin", "version")) writeStringConfig("autojoin", "version", Main.VERSION);
+
+        if(!hasKey("whitelist", "dontactuallyknow")) writeBooleanConfig("whitelist", "DontActuallyKnow", true);
+        if(!hasKey("whitelist", "frezee_")) writeBooleanConfig("whitelist", "frezee_", true);
+        if(!hasKey("whitelist", "underiq")) writeBooleanConfig("whitelist", "underiq", true);
+        if(!hasKey("whitelist", "overiq")) writeBooleanConfig("whitelist", "overiq", true);
+        if(!hasKey("whitelist", "notmuchiq")) writeBooleanConfig("whitelist", "notmuchiq", true);
+        if(!hasKey("whitelist", "casualflex")) writeBooleanConfig("whitelist", "casualflex", true);
+        if(!hasKey("whitelist", "moognus")) writeBooleanConfig("whitelist", "moognus", true);
+        if(!hasKey("whitelist", "belowiqphoenix")) writeBooleanConfig("whitelist", "belowiqphoenix", true);
+        if(!hasKey("whitelist", "abve")) writeBooleanConfig("whitelist", "abve", true);
     }
 
 }

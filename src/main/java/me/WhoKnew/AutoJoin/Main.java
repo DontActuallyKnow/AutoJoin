@@ -16,7 +16,7 @@ public class Main {
     Minecraft mc = Minecraft.getMinecraft();
 
     public static final String MODID = "AUTOJOIN";
-    public static final String VERSION = "SNAPSHOT-1.0.0";
+    public static final String VERSION = "SNAPSHOT-1.0.5";
     public static final String NAME = "AutoJoin";
 
     public static String prefix = Utils.chat("&bAutoJoin 7r&c>> &r&a");
@@ -25,10 +25,9 @@ public class Main {
     public void init(FMLInitializationEvent event) {
         //Reload the config
         ConfigHandler.reloadConfig();
-        //Register commands and events
-        //Commands
+        //Register Commands
         ClientCommandHandler.instance.registerCommand(new VersionCommand());
-        //Events
+        //Register Events
         MinecraftForge.EVENT_BUS.register(new RecievePartyMessageEvent());
     }
 

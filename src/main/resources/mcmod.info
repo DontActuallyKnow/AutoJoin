@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
+  "modid": "AutoJoin",
+  "name": "AutoJoin",
+  "description": "Easy to use auto party joining mod for hypixel. Useful for fragbots with a customizable whitelist.",
+  "version": "SNAPSHOT-1.0.5",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "dontactuallyknow.co.uk",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["DontActuallyKnow"],
+  "credits": "DontActuallyKnow for all code and features",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
